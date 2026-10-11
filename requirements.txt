@@ -1,0 +1,12 @@
+# Runtime and RL dependencies. Python 3.14 is the recommended Windows runtime.
+poke-env>=0.16.1,<0.17
+stable-baselines3>=2.9,<3
+torch>=2.8,<3
+gymnasium>=0.29.1,<2
+numpy>=1.26,<3
+
+# Needed only for `train.py --opponent self`.
+supersuit>=3.11,<4
+
+# Optional: install separately to use `train.py --tensorboard-log PATH`.
+# tensorboard
